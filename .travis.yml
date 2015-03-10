@@ -7,10 +7,10 @@ php:
 
 
 notifications:
+  on_success: always
+  on_failure: always
   email:
     - tim.cook@hightail.com
-    on_success: always
-    on_failure: always
 
 
 before_script:
