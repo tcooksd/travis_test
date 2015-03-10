@@ -9,7 +9,4 @@ php:
 
 notifications:
   email:
-    recipients:
-      - tim.cook@hightail.com
-    on_success: [always|never|change] # default: change
-    on_failure: [always|never|change] # default: always
+    - tim.cook@hightail.com
